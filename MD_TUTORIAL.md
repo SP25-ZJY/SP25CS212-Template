@@ -51,9 +51,10 @@
   `This is inline code.`
 
 - **Code Block**:
-```python
-print('Hello World')
-print('CS151')
+```java
+public static void main(String[] args) {
+    System.out.println("Hello CS212");
+}
 ```
 
 ## `Horizontal Rule`
@@ -66,5 +67,5 @@ print('CS151')
 ## `Encrypt your File`
 
 ```bash
-java ./FET.java
+java FET.java
 ```
