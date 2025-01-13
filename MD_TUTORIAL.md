@@ -8,6 +8,7 @@
   * [`Table Example`](#table-example)
   * [`Code`](#code)
   * [`Horizontal Rule`](#horizontal-rule)
+  * [`Symbols`](#symbols)
   * [`Encrypt your File`](#encrypt-your-file)
 <!-- TOC -->
 
@@ -59,6 +60,8 @@ print('CS151')
 
 ---
 
+## `Symbols`
+✅✳️⬅️➡️⏺️🔼🟢🟡🔴🔵🟣🟠⛔️🟥🔶🔻🔺❌‼️❕
 
 ## `Encrypt your File`
 
