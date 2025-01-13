@@ -3,22 +3,33 @@
 <h2> Table of Contents </h2>
 
 <!-- TOC -->
-* [`I. DEADLINES`](#i-deadlines)
-* [`II. RESOURCES`](#ii-resources)
-* [`III. PURPOSE OF THE ASSIGNMENT`](#iii-purpose-of-the-assignment)
-* [`IV. PROBLEM`](#iv-problem)
-* [`V. REQUIREMENTS ANALYSIS`](#v-requirements-analysis)
-* [`VI. DESIGN`](#vi-design)
-* [`VII. PROGRAMMING REQUIREMENTS`](#vii-programming-requirements)
-* [`VIII. ASSIGNMENT REMINDERS`](#viii-assignment-reminders)
-* [`IX. SUBMISSIONS`](#ix-submissions)
+  * [`II. RESOURCES`](#ii-resources)
+  * [`I. DEADLINES`](#i-deadlines)
+  * [`II. RESOURCES`](#ii-resources-1)
+  * [`III. PURPOSE OF THE ASSIGNMENT`](#iii-purpose-of-the-assignment)
+  * [`IV. PROBLEM`](#iv-problem)
+  * [`V. REQUIREMENTS ANALYSIS`](#v-requirements-analysis)
+  * [`VI. DESIGN`](#vi-design)
+  * [`VII. PROGRAMMING REQUIREMENTS`](#vii-programming-requirements)
+  * [`VIII. ASSIGNMENT REMINDERS`](#viii-assignment-reminders)
+  * [`IX. SUBMISSIONS`](#ix-submissions)
     * [`DESIGN SUBMISSION: Sunday 01/20 11:59PM`](#design-submission-sunday-0120-1159pm)
     * [`FINAL SUBMISSION due Monday 01/27 11:59PM`](#final-submission-due-monday-0127-1159pm)
 <!-- TOC -->
 
 <h4> 🔵 Understand the problem and Design before Coding 🔵 </h4>
 
-**🔵 Post any question on [Discord PA Channel](https://discord.com/channels/1316435150527004825/1316435267145695312) 🔵**
+**🔵 Post any question on [Discord PA Channel](https://discord.com/channels/1325897175544369263/1325897175544369271) 🔵**
+
+## `II. RESOURCES`
+- [Class Examples Repo](https://github.com/SP25-ZJY/CS212)
+- [Self or Annotated Notes](https://moodle.loyola.edu/course/view.php?id=89009)
+- [CS 212: Book](https://open.umn.edu/opentextbooks/textbooks/java-java-java-object-oriented-problem-solving)
+- [Solutions To Previous Labs and PAs](https://classroom.github.com/classrooms/193636664-sp25-zjy-cs212)
+- **You can use LLM (Such as ChatGPT or Gemini) as a guider but not as a problem Solver**
+    - 🟠**LLM-Based Codes Will Result in Penalty and Honor Code Violation**🟠
+
+
 ## `I. DEADLINES`
 
 | Deliverable | Due Date             |

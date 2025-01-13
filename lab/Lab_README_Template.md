@@ -8,6 +8,8 @@
 <h3>Table of contents</h3>
 
 <!-- TOC -->
+  * [`I. DEADLINES`](#i-deadlines)
+  * [`II. RESOURCES`](#ii-resources)
   * [`Problem`](#problem)
   * [`Purpose`](#purpose)
   * [`Details`](#details)
@@ -17,6 +19,25 @@
   * [`What to Submit in GitHub`](#what-to-submit-in-github)
     * [Check List Before Submission](#check-list-before-submission)
 <!-- TOC -->
+
+<h4> 🔵 Understand the problem and Design before Coding 🔵 </h4>
+
+**🔵 Post any question on [Discord PA Channel](https://discord.com/channels/1325897175544369263/1325897175544369272) 🔵**
+
+## `I. DEADLINES`
+
+| Deliverable | Due Date        |
+|-------------|-----------------|
+| Lab X       | Before next lab |
+
+## `II. RESOURCES`
+- [Class Examples Repo](https://github.com/SP25-ZJY/CS212)
+- [Self or Annotated Notes](https://moodle.loyola.edu/course/view.php?id=89009)
+- [CS 212: Book](https://open.umn.edu/opentextbooks/textbooks/java-java-java-object-oriented-problem-solving)
+- [Solutions To Previous Labs and PAs](https://classroom.github.com/classrooms/193636664-sp25-zjy-cs212)
+- **You can use LLM (Such as ChatGPT or Gemini) as a guider but not as a problem Solver**
+    - 🟠**LLM-Based Codes Will Result in Penalty and Honor Code Violation**🟠
+
 
 ## `Problem`
 Someone has converted your files using a cipher! 
