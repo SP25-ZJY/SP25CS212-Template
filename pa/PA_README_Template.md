@@ -95,7 +95,7 @@ After your design is complete, follow these steps:
     - Output the answer to the user with text describing the number (good usability).
     - Use mathematical symbols and functions correctly.
 2. **Testing**:
-    - Create a list of inputs and the correct output covering all possible cases on [`test_cases.xlsx`](test_cases.xlsx).
+    - Create a list of inputs and the correct output covering all possible cases on [`test_cases.xlsx`](../test_cases.xlsx).
     - Test your program with these cases and correct any errors.
 3. **Evaluation**:
     - Ask your customer to evaluate your program. Adjust if necessary.
@@ -151,9 +151,9 @@ Your algorithm should follow the requirements of an algorithm, and contain all t
 2. [`initial_design.md`](initial_design.md)
 3. [`final_design.md`](final_design.md)
 4. An Excel file with your test cases.
-    - Edit the [`test_cases.xlsx`](test_cases.xlsx) file with Excel software
+    - Edit the [`test_cases.xlsx`](../test_cases.xlsx) file with Excel software
     - If it can open then ok. Otherwise
-        - Right click on [`test_cases.xlsx`](test_cases.xlsx) -> Open In -> Associated Application
+        - Right click on [`test_cases.xlsx`](../test_cases.xlsx) -> Open In -> Associated Application
 5. [`reflection.md`](reflection.md) -> Reflection of the assignment
 6. A signed or emailed statement from a client that they are satisfied with your SW .
 
