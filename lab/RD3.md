@@ -8,5 +8,5 @@
 
 ### Encrypt Reflection
 ```bash
-python ./FET.py
+java FET.java
 ```
