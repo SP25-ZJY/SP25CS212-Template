@@ -1,179 +1,164 @@
-<h1>CS151 Lab 11</h1>
+<h1> Lab 00 -- Getting Started with Java and Git </h1>
 
- <h3>🔴 DO NOT Start to code before the instructor Approve your algorithm, and test cases🔴</h3>
-
-- **Grade: EMRN**
-- **Due: Before Next Lab**
-
-<h3>Table of contents</h3>
+<h2> Table of Contents </h2>
 
 <!-- TOC -->
   * [`I. DEADLINES`](#i-deadlines)
   * [`II. RESOURCES`](#ii-resources)
-  * [`Problem`](#problem)
-  * [`Purpose`](#purpose)
-  * [`Details`](#details)
-  * [`Design`](#design)
-  * [`Steps`](#steps)
-  * [`Programming Hints`](#programming-hints)
-  * [`What to Submit in GitHub`](#what-to-submit-in-github)
-    * [Check List Before Submission](#check-list-before-submission)
+  * [`III. PURPOSE`](#iii-purpose)
+  * [`IV. DESCRIPTION`](#iv-description)
+    * [`DETAILS`](#details)
+    * [`STEPS`](#steps)
+      * [`DRIVER 1 WRITES CODE`](#driver-1-writes-code)
+      * [`DRIVER 2 WRITES CODE`](#driver-2-writes-code)
+      * [`DRIVER 1 AND DRIVER 2`](#driver-1-and-driver-2)
+  * [`V. SUBMISSIONS`](#v-submissions)
+    * [`REFLECTION IDEAS`](#reflection-ideas)
 <!-- TOC -->
 
 <h4> 🔵 Understand the problem and Design before Coding 🔵 </h4>
 
-**🔵 Post any question on [Discord PA Channel](https://discord.com/channels/1325897175544369263/1325897175544369272) 🔵**
+**🔵 Post any questions on [Discord Lab Channel](https://discord.com/channels/1325897175544369263/1325897175544369272) 🔵**
+
+---
 
 ## `I. DEADLINES`
 
 | Deliverable | Due Date        |
 |-------------|-----------------|
-| Lab X       | Before next lab |
+| Lab 00      | Before next lab |
+---
 
 ## `II. RESOURCES`
+
 - [Class Examples Repo](https://github.com/SP25-ZJY/CS212)
 - [Self or Annotated Notes](https://moodle.loyola.edu/course/view.php?id=89009)
 - [CS 212: Book](https://open.umn.edu/opentextbooks/textbooks/java-java-java-object-oriented-problem-solving)
 - [Solutions To Previous Labs and PAs](https://classroom.github.com/classrooms/193636664-sp25-zjy-cs212)
-- **You can use LLM (Such as ChatGPT or Gemini) as a guider but not as a problem Solver**
-    - 🟠**LLM-Based Codes Will Result in Penalty and Honor Code Violation**🟠
+
+**🟠 LLM-Based Codes Will Result in Penalty and Honor Code Violation 🟠**
+
+---
+
+## `III. PURPOSE`
+
+The goal of this assignment is to ease you into Java programming using IntelliJ, an Interactive Development Environment (IDE).
+
+This assignment will help you practice the following:
+
+1. Collaborating with your classmate using pair programming.
+2. Sharing code through GitHub.
+3. Learning about ASCII art.
+
+[<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
+
+---
+
+## `IV. DESCRIPTION`
+
+Write a simple Java program that prints your initials in the form of ASCII art, similar to the examples found at [ASCII Art](https://www.asciiart.eu/).
+
+### `DETAILS`
+
+- Work in “pair programming” mode. One person is the driver, and the other is the navigator.
+- Switch roles after completing the initial code and testing.
+- Collaborate effectively by sketching the ASCII art on paper first.
+
+### `STEPS`
+
+#### `DRIVER 1 WRITES CODE`
 
 
-## `Problem`
-Someone has converted your files using a cipher! 
-- Ciphers have been very popular for millenia as a way to hide information. 
-- Can you create a program to convert them back to plain English??
+1. CLONE REPOSITORY: Open IntelliJ and follow the steps in the [“Get a repository from Git to IntelliJ”](https://github.com/SP25-ZJY/CS212/blob/main/SETUP_GUIDE.md) guide under configuration.
+    - ⚠️ NO NEED TO INSTALL SWs. AVAILABLE ON LAB PC
+2. STATER FILE: There is a single .java file in the repository (HelloWorld.java).
+    - Compile and run your program. It should print out Hello, World!.
+    - Refer to the guide from the last step if you have any problem.
+3. CODE: You will need to modify the `println` statement
+    - Add other `println` statements to print out your partner’s name and a fun fact about them, and
+    - Add initial (in ascii art).
+    - Again, I highly recommend sketching the letters out on paper first.
+4. RUN and TEST: Run your program by clicking on the “Run” menu, then -> “Run” or use the Run button.
+    - Look at the output at the bottom of IntelliJ.
+    - Does it appear the way you want? If not, or if instead you see an error, try to fix your code so that it does what you want (you will need to run again afterward).
+    - One of the error you may encounter is “java: illegal escape character” If you have \ (backslash) in your `println` statement, you need to but another one infront of it: \\.
+5. CONTINUE CODING: repeat step 4 until you are happy with the result.
+6. COMMIT And PUSH: Commit and push your code to github.com.
+    - Follow the directions in the “GitHub Quick Guide” document for “Saving Your Work.”
 
-## `Purpose`
-This lab gives you practice with: 
-* Using dictionaries
-* Following problem-solving techniques
-* Creating functions
-* Doing file I/O
+⛔️ If you are happy with the result **_Push and Commit_**
+<h2> Now you can switch role. </h2>
 
-## `Details`
-Morse code is a code for representing letters such that it can be communicated via blinking lights or sounds. 
-- There are only 2 symbols: `dots (.) and dashes (-)`. 
-- A specific ordering of dots and dashes represents a particular letter, number, or symbol. 
-- You can see an example of morse code as a communication signal at [YouTube Here](https://www.youtube.com/watch?v=_J8YcQETyTw&ab_channel=DaveHimslef).
+[<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
 
-Open your `morsecode.txt` file to see the conversions. 
-- You have all English letters, the digits of base 10, and a few punctuation symbols. 
-- This file tells you how to convert between Morse code and English, with a *tab* between the two columns.
+#### `DRIVER 2 WRITES CODE`
 
-The files you must convert are written in Morse Code with a space between the letters, with one word per line.
+7. CLONE or PULL: It is now driver 2's turn to write the code.
+    - They should first Clone the Repository if they haven't already.
+    - If you have cloned the repository already before Driver #1 committed and pushed the code.
+    - You will need to update your local repository by using the blue arrow on the top menu (Next to Git:)
+8. CONTINUE CODING: You should see the changes your partner made in HelloWorld.java.
+    - It is now time to write code to print out your partner’s initial.
+    - repeat step 3,4 and 5 until you are happy with the result.
+9. COMMENT: Comments are part of the programming in general.
+    - You should always put comment in your code code.
+    - They are used to explain how the code works to human readers of the code.
+    - Once your program runs properly, add introductory comments at the very top of your file that match the ones below but are edited to be personalized to you and your partner.
+    - Use `//` to add comments to your code.
 
-## `Design`
-**For this lab you MUST use iterative development. <br> You must work on your algorithms in a specific order. See the Steps, and FOLLOW them.** 
+```
+  // Programmers:  your name here
+  // Course:  CS 212, Dr. Zelalem Jembre Yalew 
+  // Due Date: put the due date here
+  // Lab Assignment: 0
+  // Problem Statement:  Output programmers’ name, fun facts and initial
+  // Input: None, there is no user input in this program
+  // Output:  The initials of the programmers in ascii art form
+  // Credits: [Is your code based on an example in the book, in class, or something else?  
+  //            Reminder: you should never take code from the Internet or another person
+```
+---
 
-- Your program will first read in `morsecode.txt` to learn the conversions
-  - Think about the best way (suitable data structure) to store this information.
-- Next it will ask the user for the name of a file that is written in Morse code, convert it to English. 
-  - The program then writes the English conversion out on to a NEW file (The file name for the output is chosen by user).
-  - 🟢`N.B. It is possible to read from one file and write onto another file from a single function`🟢
-    - Imagine as if you are copying from one file and pasting onto another
-- Your program MUST ask for the following information from the user: 
-  - the name of your file that shows the conversions (e.g. `moresecode.txt` in this case), 
-  - the name of the input file that is written in morse code, and 
-  - the name of the output file. 
+#### `DRIVER 1 AND DRIVER 2`
 
-## `Steps`
-**Take turns driving by function.** Every time you move to a new function, change who is typing. 
-- Just move the keyboard over, you don't need to swap seats.
+10. Make sure to indent your code properly and there is no error.
 
-1. Make sure you understand the problem
-2. Design: 
-   - You will need functions to do: 
-     - file name input error checking, 
-     - storing conversion information from morsecode.txt, 
-     - reading in the morse code text, 
-     - converting from morse to English and writing that conversion to a file, and 
-     - main. 
-   - For the design phase, you need to determine the:
-     - Purpose
-     - Name
-     - Parameters, 
-     - return types, and 
-     - general approach for each function (including the data structure to use). 
-       - 🟢`A full algorithm is not required.`🟢
-   - *You should not need more than 15 minutes for the design step.* 
-      - Ask questions if you get stuck! 
-      - **Show the professor your design.** 
-4. Follow iterative development! 
-   - Write one function at a time, updating main to call the functions as you go, getting it to work before moving on. 
-   - First should be file name input, and then reading in morsecode.txt and storing appropriately for later use. 
-   - **switch drivers between functions**
-5. Put output in main to test that your function to store you conversion from morsecode to letters is correct. 
-   - You can delete this output once you've determined your code works so far.
-6. Next write the function for converting a file written in morsecode to a file written in English. 
-   - Test it to see that it works.
-7. Write comments in your code to make it clear what it is doing.
-8. Write comments for each function in your code. 
-9. Include an updated version of the header comments. 
-   - Be sure to note that you need input files in the "Other files" part! 
+11. COMMIT And PUSH: Commit and push your code to github.com.
+    - Follow the directions in the “GitHub Quick Guide” document for “Saving Your Work.”
 
-## `Programming Hints`
-The code for this assignment is fairly short, but there are a few little things that might trip you up when you go to code your algorithm. 
+Quick note:
 
-Here are a few hints to help with that issue:
-* Be careful how you name the variables in your for loops. 
-  * Meaningful naming will make coding it correctly a LOT easier.
-* The letter and morse code value in the file are separated by a tab. 
-  * A tab is just another form of whitespace.
-* You will need to strip both the key and the value after reading it from the file to remove whitespace. 
-  * Otherwise, your code won’t be able to find the answer correctly.
+**If you are done,  show your program running and on GitHub to the professor before leaving the classroom.**
 
+---
 
-## `What to Submit in GitHub`
+## `V. SUBMISSIONS`
 
-1. Completed `main.py` file  
-2. `algorithm.md`
-3. Encrypt your files using the `keys` and `process_reflection.py`
-   1. `RD1.md` -> Reflection for Drive 1
-   2. `RD2.md` -> Reflection for Drive 2
-   3. If you use a different key, it is considered unsubmitted
+**🔶 Commit and Push to GitHub: 🔶**
 
-**As a reminder, reflections count toward your participation grade.**
+1. Completed `HelloWorld.java` file.
+2. Encrypted reflection files using the `FET.java`:
+    - `RD1.md`: Reflection for Driver 1.
+    - `RD2.md`: Reflection for Driver 2.
+    - `RD3.md`: Reflection for Driver 3. (If there are three members)
 
-Type the Reflection INSIDE the respective Word file and addressing the following questions:
+---
 
- - Objective:
-   - What were you supposed to learn/accomplish?
+### `REFLECTION IDEAS`
 
- - Procedure:
-   - What steps were followed and what techniques did you use to solve the problem?
-   - What were the Key concepts explored?
+Write your reflection in the respective files (`RD1.md` and `RD2.md`). Address the following:
 
- - Results:
-   - Did your results match what you expected to get?
-   - Did you try using various test cases, or extreme test cases?
-  
- - Reflection:
-   - What challenges did you encounter? 
-   - How did you follow the first 3 rules of programming?
-   - Did you overcome them, and how? 
-   - Any key takeaways? 
-   - Do you think you learned what you were supposed to learn for this lab? 
-   - What was it like working with your partner?
+- **Objective**:
+    - What were you supposed to learn/accomplish?
+- **Procedure**:
+    - What steps were followed?
+    - What techniques were used to solve the problem?
+- **Results**:
+    - Did your results meet your expectations?
+    - Did you test with extreme or edge cases?
+- **Reflection**:
+    - What challenges did you encounter?
+    - How did you address them?
+    - What was it like working with your partner?
 
-### Check List Before Submission
-
-- Asks the user for an input file name that contains conversion from morse code to english
-- Asks user to try again if input file name doesn't exist (try bbb.txt)
-- Asks user for name of input file to convert
-- Asks user to try again if this files doesn't exist as well
-- Asks user for name of output file, without error checking name
-- Output file as converted text in it that makes sense (even if there are extra line breaks)
-- Output file has space between words and no space between characters between words (not required, but helps earn an E)
-
-
-- Error checking on user input is while os.path.isfile(filename) with filename being user input that is updated within the loop
-- There is a function for error checking file name that returns file name
-- There is a function for reading from the file that returns a list of lists
-- There is a function for reading from initial file that returns a dictionary with keys as 2nd item on line, and values a 1st item
-- Either another function writes to a file and does conversion, or the function that reads in file to convert also writes to file
-- There are complete intro comments
-- There are comments above each function (purpose, parameters, return info)
-
-
-**Make sure the file in your PyCharm and Github is the same (i.e. Commit and Push)**
+[<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
