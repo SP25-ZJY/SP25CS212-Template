@@ -1,34 +1,28 @@
-<h1> CS151 PROGRAMMING ASSIGNMENT 0</h1>
+<h1> CS212 Programming Assignment 0 </h1>
 
 <h2> Table of Contents </h2>
 
 <!-- TOC -->
-  * [`II. RESOURCES`](#ii-resources)
   * [`I. DEADLINES`](#i-deadlines)
-  * [`II. RESOURCES`](#ii-resources-1)
-  * [`III. PURPOSE OF THE ASSIGNMENT`](#iii-purpose-of-the-assignment)
-  * [`IV. PROBLEM`](#iv-problem)
+  * [`II. RESOURCES`](#ii-resources)
+  * [`III. PROBLEM`](#iii-problem)
+  * [`IV. PURPOSE OF THE ASSIGNMENT`](#iv-purpose-of-the-assignment)
   * [`V. REQUIREMENTS ANALYSIS`](#v-requirements-analysis)
   * [`VI. DESIGN`](#vi-design)
   * [`VII. PROGRAMMING REQUIREMENTS`](#vii-programming-requirements)
-  * [`VIII. ASSIGNMENT REMINDERS`](#viii-assignment-reminders)
+  * [`VI. STYLE`](#vi-style)
   * [`IX. SUBMISSIONS`](#ix-submissions)
     * [`DESIGN SUBMISSION: Sunday 01/20 11:59PM`](#design-submission-sunday-0120-1159pm)
-    * [`FINAL SUBMISSION due Monday 01/27 11:59PM`](#final-submission-due-monday-0127-1159pm)
+    * [`FINAL SUBMISSION: Monday 01/27 11:59PM`](#final-submission-monday-0127-1159pm)
+    * [`REFLECTION IDEAS`](#reflection-ideas)
+    * [`REMINDERS`](#reminders)
 <!-- TOC -->
 
-<h4> 🔵 Understand the problem and Design before Coding 🔵 </h4>
+<h4> 🔵 Understand the Problem and Design Before Coding 🔵 </h4>
 
-**🔵 Post any question on [Discord PA Channel](https://discord.com/channels/1325897175544369263/1325897175544369271) 🔵**
+**🔵 Post any questions on [Discord PA Channel](https://discord.com/channels/1325897175544369263/1325897175544369271) 🔵**
 
-## `II. RESOURCES`
-- [Class Examples Repo](https://github.com/SP25-ZJY/CS212)
-- [Self or Annotated Notes](https://moodle.loyola.edu/course/view.php?id=89009)
-- [CS 212: Book](https://open.umn.edu/opentextbooks/textbooks/java-java-java-object-oriented-problem-solving)
-- [Solutions To Previous Labs and PAs](https://classroom.github.com/classrooms/193636664-sp25-zjy-cs212)
-- **You can use LLM (Such as ChatGPT or Gemini) as a guider but not as a problem Solver**
-    - 🟠**LLM-Based Codes Will Result in Penalty and Honor Code Violation**🟠
-
+---
 
 ## `I. DEADLINES`
 
@@ -37,163 +31,182 @@
 | PA-Design   | Sunday 01/20 11:59PM |
 | PA-Final    | Monday 01/27 11:59PM |
 
+---
+
 ## `II. RESOURCES`
-- [Class Examples Repo](https://github.com/SP25-ZJY/CS151)
-- [Self or Annotated Notes](https://moodle.loyola.edu/course/view.php?id=89004)
-- [CS 151: Book](https://learn.zybooks.com/zybook/LOYOLACS151Spring2025)
-- [Solutions To Previous Labs and PAs](https://classroom.github.com/classrooms/193636664-sp25-zjy-cs151)
-- [PA Late Submission Form](https://forms.office.com/r/mkE8wwT1xV)
-- **You can use LLM (Such as ChatGPT or Gemini) as a guider but not as a problem Solver**
-    - 🟠**LLM-Based Codes Will Result in Penalty and Honor Code Violation**🟠
+- [Class Examples Repo](https://github.com/SP25-ZJY/CS212)
+- [Self or Annotated Notes](https://moodle.loyola.edu/course/view.php?id=89009)
+- [CS 212: Book](https://open.umn.edu/opentextbooks/textbooks/java-java-java-object-oriented-problem-solving)
+- [Solutions To Previous Labs and PAs](https://classroom.github.com/classrooms/193636664-sp25-zjy-cs212)
 
-## `III. PURPOSE OF THE ASSIGNMENT`
+- **You can use LLM (Such as ChatGPT or Gemini) as a guider but not as a problem Solver**  
+  🟠**LLM-Based Codes Will Result in Penalty and Honor Code Violation**🟠
 
-This assignment is aimed at:
+- ⚠️ **To edit the flow chart file, add `diagrams.net` plugin** ⚠️
+    - File -> Settings -> Plugins -> Marketplace: Then search and install `diagrams.net`.
+    - Update the flowchart of your project using [`Flow Chart`](../flowchart.drawio.svg).
 
-1. Providing you an opportunity to use mathematical expressions, input, and output in Python.
-2. Giving you the opportunity to design a program.
-3. Providing you with an opportunity to plan for testing your program.
-4. Practicing soliciting and using input from the user.
+---
 
-## `IV. PROBLEM`
+## `III. PROBLEM`
+You have probably done CS 151. **🟡 What's Old is New Again 🟡**
+- If you have not, don't worry; it should not impact your ability to finish the assignment.
+- If you have done this assignment in CS 151, you will need to come up with another adventure story.
 
-Most people who develop computer software don’t do it for themselves or for an instructor’s imaginary scenario.
-- Most programs are written to solve a problem or answer a real need.
-- Even though you don’t know all of Python, you will know enough to write a simple program that does a calculation that could be helpful to someone else.
+You are creating a text-based choose-your-own-adventure game! In this game:
+- The user provides input that affects the path of the story.
+- Your game must meet the requirements outlined in the specifications below.
 
-Find a simple mathematical calculation that is of use to someone else (a friend, a parent, a sibling).
-- The first step is to ask the person and get a clear idea of the need
-    - 🟢No fair assuming your program will be helpful—you need to actually ask!.🟢
-- Your program must ask for input values for the calculation, do the calculation, and output the result.
+---
 
-🟡Example: Finding the area and circumference of a circle given the radius.🟡
+## `IV. PURPOSE OF THE ASSIGNMENT`
+The purpose of this assignment is to give you:
 
-**🔴Not allowed: You may not solve a problem that is solved in the textbook, or a problem you see in class, lab, or prep!🔴**
+1. A chance to code in Java.
+2. Practice with input & output.
+3. An opportunity to use branching.
+4. A chance to be creative.
 
 [<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
+
+---
 
 ## `V. REQUIREMENTS ANALYSIS`
+The first stage of your programming assignment is the **requirements analysis**. Ensure you understand the following:
 
-The first stage in your programming assignment is the requirements analysis stage. You need to:
+1. Your adventure game must ask the user at least one question for each of the following:
+    - An **integer input**.
+    - A **float/double input**.
+    - A **string input**.
+2. Your adventure game must:
+    - Have a path with **at least 2 decisions**.
+    - Include a decision with **3 or more possible directions**.
+    - Use **3 different boolean operators**.
+    - Provide **specific inputs** for at least one decision (e.g., "enter 'red', 'green', or 'blue'").
+    - Use user input in the output at least once (e.g., addressing the player by their name).
+3. Assume users will input correct data types.
+4. **Extra credit** 🟢 5 points: Use a loop to ask the user if they want to replay the game after it ends.
 
-1. Find someone who needs a set of mathematical calculations done.
-    - It must require more than one mathematical operation (i.e., you can’t just add 2 numbers together).
-2. Think about what you need to do to solve their problem.
-    - What information do you need to gather, and how do you correctly calculate what they need to calculate?
-3. Gather the information you need to solve their problem.
+**⚠️ The game must be logical and have an understandable story. Your professor will read the entire story. ⚠️**
+
+
+
+---
 
 ## `VI. DESIGN`
+The second stage is to design your solution based on the requirements:
 
-The second stage is to design your solution:
+1. Write out your algorithm, including:
+    - Input, output, decisions, and calculations.
+    - Proper indentation and numbering to indicate nested decisions.
+2. Label reusable story elements (e.g., "story part 1") to reference them as needed.
+3. Double-check that all requirements are included.
 
-1. Ensure you understand how to solve the problem correctly.
-    - If you don’t understand the problem steps or make incorrect assumptions, your algorithm won’t solve the problem.
-2. Write out your algorithm, including input, output, and calculations.
-3. Test your algorithm to ensure it solves the problem correctly.
+**💡 Inspiration**: Use books or movies you enjoy to create an original story.  
 
-✳️To be done on [`initial_design.md`](initial_design.md) document via a markdown:✳️
-- A description of the problem you will solve.
-- The name of the person you are solving it for and their relation to you.
-- A reference for where you looked up the calculation for the problem (could be a web link, a textbook, etc.).
-- The algorithm for your program, including input, output, and calculations.
+---
 
 ## `VII. PROGRAMMING REQUIREMENTS`
+After completing your design, follow these steps:
 
-After your design is complete, follow these steps:
+1. **Fix design issues**: Ensure your design meets all requirements.
+2. **Implementation**: Write your program based on the design.
+    - Use meaningful prompts for inputs.
+    - Clearly state the program's purpose in comments.
+3. **Testing**:
+    - Create a flowchart of control paths with test cases.
+    - Test every control path and document the results.
 
-1. **Implementation**: Write your program on [`main.py`](main.py) following the below requirements and based on your design:
-    - The user must input at least one number needed for the calculation.
-    - Output the answer to the user with text describing the number (good usability).
-    - Use mathematical symbols and functions correctly.
-2. **Testing**:
-    - Create a list of inputs and the correct output covering all possible cases on [`test_cases.xlsx`](../test_cases.xlsx).
-    - Test your program with these cases and correct any errors.
-3. **Evaluation**:
-    - Ask your customer to evaluate your program. Adjust if necessary.
-    - See Feedback from professor
-    - ✳️ Updates to algorithm at this point will be done on [`final_design.md`](final_design.md) ✳️
+**⛔️ Testing Tip**: Your flowchart should make each path clear.
 
 [<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
 
-## `VIII. ASSIGNMENT REMINDERS`
+---
 
-- Follow the programming assignment requirements document for comments, formatting, etc.
-- Follow the honor code guidelines outlined in the syllabus and at [here](https://www.loyola.edu/academics/computer-science/current-students/honor-code).
+## `VI. STYLE`
+Follow these style guidelines:
 
-- Include intro comments.
+1. **File headers**: Include at the top of each file:
+   ```java
+   /**
+   * [Brief description of the file's purpose]
+   * Due Date: [date assignment is due]
+   * Assignment:  [number of assignment]
+   * Problem Statement:  [what problem does your code solve; i.e., calculating inches from centimeters]
+   * Data In: [what information do you request from the user?]
+   * Data Out:  [What information do you display for the user?]
+   * @author <Your Name>
+   * @version <Version Number, Date>
+   */
 
-```
-# Programmers:  [your names here]
-# Course:  CS151, Dr. Zelalem Jembre Yalew
-# Due Date: [date assignment is due]
-# Assignment:  [number of assignment]
-# Problem Statement:  [what problem does your code solve; i.e., calculating inches from centimeters]
-# Data In: [what information do you request from the user?]
-# Data Out:  [What information do you display for the user?]
-# Credits: [Is your code based of an example in the book, in class, or something else?  Reminder: you should never take code from the Internet or another person.]
-```
+2. **Variable names**: Use meaningful camelCase names.
+3. **Code formatting**: Use consistent indentation, whitespace, and alignment.
+4. **Documentation**: Add comments for clarity.
+5. **Git usage**: Commit after milestones with meaningful messages. Avoid a single commit for the entire project.
+
+
 ## `IX. SUBMISSIONS`
 
 ### `DESIGN SUBMISSION: Sunday 01/20 11:59PM`
-
 **🔶 Commit and Push to GitHub: 🔶**
 
-1. Write the algorithm for your design on [`initial_design.md`](initial_design.md) document.
-2. The document can include aspects of the assignment
-    1. You think you've correctly included
-    2. You are not sure is correct or got stuck on.
-    3. Importance of adding description
-        1. To make it clear that you understand what you've done, or
-        2. Where you need the most help in getting ready to write the code.
+1. Submit the following:
+    - [`initial_design.md`](initial_design.md): Your initial algorithm.
+    - [`flowchart.drawio.svg`](../flowchart.drawio.svg): Flowchart in SVG format.
+    - **If using another program**: Export the flowchart to PDF format before submission.
+    - **If hand-drawn**: Scan or photograph the flowchart, convert it to PDF, and upload it.
 
-Submit an additional file (PDF or image) containing:
-- A signed or emailed statement from your user that indicates their need for your software to solve this problem.
-- **✅ The document must be in the project folder and pushed to GitHub ✅**
+2. Your design document should:
+    - Follow all requirements outlined in the assignment.
+    - Include the full story and logical steps.
+    - **Contain no code.**
 
-If you decided to design a smarter computer player, note that in your document and why you designed it that way, so that you can get feedback on your design.
+**✅ Ensure all files are pushed to GitHub and visible in your repository. ✅**
 
-Your algorithm should follow the requirements of an algorithm, and contain all the requirements for this assignment. **There should not be any code.**
+---
 
-
-### `FINAL SUBMISSION due Monday 01/27 11:59PM`
+### `FINAL SUBMISSION: Monday 01/27 11:59PM`
 **🔶 Commit and Push to GitHub: 🔶**
 
-1. Completed [`main.py`](main.py) file
-2. [`initial_design.md`](initial_design.md)
-3. [`final_design.md`](final_design.md)
-4. An Excel file with your test cases.
-    - Edit the [`test_cases.xlsx`](../test_cases.xlsx) file with Excel software
-    - If it can open then ok. Otherwise
-        - Right click on [`test_cases.xlsx`](../test_cases.xlsx) -> Open In -> Associated Application
-5. [`reflection.md`](reflection.md) -> Reflection of the assignment
-6. A signed or emailed statement from a client that they are satisfied with your SW .
+1. Submit the following:
+    - [`.java`](`*.java`): Your program's source code.
+    - [`initial_design.md`](initial_design.md): Your original design document.
+    - [`final_design.md`](final_design.md): Updated design reflecting changes during development.
+    - [`test_cases.xlsx`](../test_cases.xlsx): Your test cases in Excel format.
+    - [`flowchart.drawio.svg`](../flowchart.drawio.svg): Final flowchart of your program.
+    - [`reflection.md`](reflection.md): Reflection document addressing the questions below.
 
+2. Ensure all files are:
+    - **Correctly named** and placed in your project folder.
+    - **Pushed to GitHub** and verified on `github.com`.
 
-**As a reminder, reflections count toward your participation grade.**
+---
 
-Type the Reflection INSIDE the respective [markdown file](reflection.md) and addressing the following questions:
+### `REFLECTION IDEAS`
 
-- Objective:
+Write your reflection in [`reflection.md`](reflection.md). Address the following:
+
+- **Objective**:
     - What were you supposed to learn/accomplish?
+- **Procedure**:
+    - What steps did you follow to solve the problem?
+    - What techniques or concepts were applied?
+- **Results**:
+    - Did your results match your expectations?
+    - Did you test with different or extreme cases?
+- **Reflection**:
+    - What challenges did you face, and how did you overcome them?
+    - How does Java compare to Python?
+    - What would you do differently next time?
 
-- Procedure:
-    - What steps were followed and what techniques did you use to solve the problem?
-    - What were the Key concepts explored?
+---
 
-- Results:
-    - Did your results match what you expected to get?
-    - Did you try using various test cases, or extreme test cases?
+### `REMINDERS`
 
-- Reflection:
-    - What challenges did you encounter?
-    - How did you follow the first 3 rules of programming?
-    - Did you overcome them, and how?
-    - Any key takeaways?
-    - Do you think you learned what you were supposed to learn for this lab?
-    - What was it like working by yourself?
+***Remember to commit and push your GitHub project regularly.***
+- Use **meaningful commit messages** for each milestone.
+- A single commit for the entire project is **not acceptable**.
 
-***Remember to commit and push your GitHub project.***
+**🔵 Review your repository on `github.com` to ensure all files are visible before the deadline. 🔵**
 
 [<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
-
-✅✳️⬅️➡️⏺️🔼🟢🟡🔴🔵🟣🟠⛔️🟥🔶🔻🔺❌‼️❕
