@@ -1,4 +1,4 @@
-<h1> Lab 00 -- Getting Started with Java and Git </h1>
+<h1> Lab 00 -- Title </h1>
 
 <h2> Table of Contents </h2>
 
@@ -13,7 +13,6 @@
       * [`DRIVER 2 WRITES CODE`](#driver-2-writes-code)
       * [`DRIVER 1 AND DRIVER 2`](#driver-1-and-driver-2)
   * [`V. SUBMISSIONS`](#v-submissions)
-    * [`REFLECTION IDEAS`](#reflection-ideas)
 <!-- TOC -->
 
 <h4> 🔵 Understand the problem and Design before Coding 🔵 </h4>
@@ -143,22 +142,5 @@ Quick note:
     - `RD3.md`: Reflection for Driver 3. (If there are three members)
 
 ---
-
-### `REFLECTION IDEAS`
-
-Write your reflection in the respective files (`RD1.md` and `RD2.md`). Address the following:
-
-- **Objective**:
-    - What were you supposed to learn/accomplish?
-- **Procedure**:
-    - What steps were followed?
-    - What techniques were used to solve the problem?
-- **Results**:
-    - Did your results meet your expectations?
-    - Did you test with extreme or edge cases?
-- **Reflection**:
-    - What challenges did you encounter?
-    - How did you address them?
-    - What was it like working with your partner?
 
 [<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
