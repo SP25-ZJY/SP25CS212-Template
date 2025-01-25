@@ -140,6 +140,8 @@ Quick note:
     - `RD1.md`: Reflection for Driver 1.
     - `RD2.md`: Reflection for Driver 2.
     - `RD3.md`: Reflection for Driver 3. (If there are three members)
+    - N.B. You can get the path of the reflection file and paste it inside the fet browser
+   - <img src="enc_steps.png" alt="">
 
 ---
 
