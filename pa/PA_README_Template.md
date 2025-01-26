@@ -44,7 +44,7 @@
 
 - ⚠️ **To edit the flow chart file, add `diagrams.net` plugin** ⚠️
     - File -> Settings -> Plugins -> Marketplace: Then search and install `diagrams.net`.
-    - Update the flowchart of your project using [`Flow Chart`](../flowchart.drawio.svg).
+    - Update the flowchart of your project using [`Flow Chart`](uml.drawio.svg).
 
 ---
 
@@ -152,7 +152,7 @@ Follow these style guidelines:
 
 1. Submit the following:
     - [`initial_design.md`](initial_design.md): Your initial algorithm.
-    - [`flowchart.drawio.svg`](../flowchart.drawio.svg): Flowchart in SVG format.
+    - [`flowchart.drawio.svg`](uml.drawio.svg): Flowchart in SVG format.
     - **If using another program**: Export the flowchart to PDF format before submission.
     - **If hand-drawn**: Scan or photograph the flowchart, convert it to PDF, and upload it.
 
@@ -172,41 +172,14 @@ Follow these style guidelines:
     - [`.java`](`*.java`): Your program's source code.
     - [`initial_design.md`](initial_design.md): Your original design document.
     - [`final_design.md`](final_design.md): Updated design reflecting changes during development.
-    - [`test_cases.xlsx`](../test_cases.xlsx): Your test cases in Excel format.
-    - [`flowchart.drawio.svg`](../flowchart.drawio.svg): Final flowchart of your program.
+    - [`test_cases.xlsx`](test_cases.xlsx): Your test cases in Excel format.
+    - [`flowchart.drawio.svg`](uml.drawio.svg): Final flowchart of your program.
     - [`reflection.md`](reflection.md): Reflection document addressing the questions below.
 
 2. Ensure all files are:
     - **Correctly named** and placed in your project folder.
     - **Pushed to GitHub** and verified on `github.com`.
-
+    - Use **meaningful commit messages** for each milestone.
 ---
-
-### `REFLECTION IDEAS`
-
-Write your reflection in [`reflection.md`](reflection.md). Address the following:
-
-- **Objective**:
-    - What were you supposed to learn/accomplish?
-- **Procedure**:
-    - What steps did you follow to solve the problem?
-    - What techniques or concepts were applied?
-- **Results**:
-    - Did your results match your expectations?
-    - Did you test with different or extreme cases?
-- **Reflection**:
-    - What challenges did you face, and how did you overcome them?
-    - How does Java compare to Python?
-    - What would you do differently next time?
-
----
-
-### `REMINDERS`
-
-***Remember to commit and push your GitHub project regularly.***
-- Use **meaningful commit messages** for each milestone.
-- A single commit for the entire project is **not acceptable**.
-
-**🔵 Review your repository on `github.com` to ensure all files are visible before the deadline. 🔵**
 
 [<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)

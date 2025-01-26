@@ -1,9 +1,72 @@
-# Reflection Document
+<h2> Reflection Document </h2>
 
-* Full Name :  
-* Student ID:  
+<!-- TOC -->
+* [Info](#info)
+* [Objective](#objective)
+* [Procedure](#procedure)
+* [Results](#results)
+* [Reflection](#reflection)
+    * [Encrypt Reflection](#encrypt-reflection)
+<!-- TOC -->
+
+# Info
+
+- Drive Full Name  :
+- Partner Full Name:
+- Student ID:
+
+
+# Objective
+
+What were you supposed to learn/accomplish?
+
+> Answer:
+
+# Procedure
+
+What steps were followed and what techniques did you use to solve the problem?
+
+> Answer:
+
+What were the Key concepts explored?
+
+> Answer:
+Where
+
+# Results
+
+Did your results match what you expected to get?
+
+> Answer:
+
+Did you try using various test cases, or extreme test cases?
+
+> Answer:
+
+[<h2>⬆Back To Top⬆</h2>](#info)
+
+# Reflection
+
+What challenges did you encounter?
+
+> Answer:
+
+Did you overcome them, and how?
+
+> Answer:
+
+Any key takeaways?
+
+> Answer:
+
+Do you think you learned what you were supposed to learn for this lab?
+
+> Answer:
+
+How does Java compare to Python?
+
+> Answer:
 
 
 
-
-
+[<h2>⬆Back To Top⬆</h2>](#info)
