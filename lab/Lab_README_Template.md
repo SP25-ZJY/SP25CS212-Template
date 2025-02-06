@@ -158,6 +158,7 @@ You will write your program in the "pair programming" mode: one of you is the dr
     - `RD2.md`: Reflection for Driver 2.
     - `RD3.md`: Reflection for Driver 3. (If there are three members)
     - N.B. You can get the path of the reflection file and paste it inside the fet browser
+      - **Unencrypted reflection will be considered unsubmitted**
     - <img src="enc_steps.png" alt="">
 
 [<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
