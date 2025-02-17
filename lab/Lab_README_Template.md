@@ -1,4 +1,4 @@
-<h1> Lab 02 -- A Greyhound Grocers Cashier </h1>
+<h1> Lab 04 -- A Greyhound Grocers Cashier </h1>
 
 <h2> 50 Points </h2>
 
@@ -9,10 +9,10 @@
 * [`II. RESOURCES`](#ii-resources)
 * [`III. PURPOSE`](#iii-purpose)
 * [`IV. PROBLEM`](#iv-problem)
-* [`V. DETAILS`](#v-details)
-* [`VI. REQUIREMENTS`](#vi-requirements)
-    * [Quick note:](#quick-note)
-    * [Bonus:](#bonus)
+* [`V. REQUIREMENTS`](#v-requirements)
+    * [Tester/Driver/Main Class:](#testerdrivermain-class)
+* [Quick note:](#quick-note)
+* [`VI. STYLE`](#vi-style)
 * [`VII. REMINDERS`](#vii-reminders)
 * [`V. SUBMISSIONS`](#v-submissions)
 <!-- TOC -->
@@ -29,7 +29,7 @@
 
 | Deliverable | Due Date        |
 |-------------|-----------------|
-| Lab 02      | Before next lab |
+| Lab 04      | Before next lab |
 ---
 
 ## `II. RESOURCES`
@@ -40,59 +40,105 @@
 - [Solutions To Previous Labs and PAs](https://classroom.github.com/classrooms/193636664-sp25-zjy-cs212)
 
 **🟠 LLM-Based Codes Will Result in Penalty and Honor Code Violation 🟠**
+
 ## `III. PURPOSE`
 
-In this assignment, practice using flow controls (if-else-loop), input (Scanner), and output.
+In this assignment, you will practice  creating a class and demonstrating its capabilities.
 
 ## `IV. PROBLEM`
-You will develop a program that acts as a smart ATM
+A sphere is a rounded shape 3-dimensional object which has a center and a radius.
+- In this assignment, you will define your Sphere class and use it to create sphere objects and to detect sphere collusion among all the spheres.
 
-## `V. DETAILS`
-You work at a bank and your current project is to design and implement a new interface for a new generation of ATMs.
-> Your task is to write a Java program to interact with a customer who wants to **deposit** to, **withdraw** from, and **check the balance** of their bank account.
+In computer games, spheres are used to model many spherical objects:
+- the sun, the moon, the earth, a cannonball, a soccer ball, a baseball, a raindrop, etc...
+- You will create a new class named Sphere after creating a file `Sphere.java`.
 
->The interface needs to prompt for a customer name and print out a greeting message. It then asks the customer what he/she wants to do.
 
+## `V. REQUIREMENTS`
+It is up to you how to design the class, but it needs to meet the following requirements:
+
+1. All attributes (x,y,z, and radius) must be private.
+2. A constructor that sets all the attributes to 0 (coordinate of the center and the radius)
+3. A constructor that sets the center and radius by accepting 4 double values (3 for the coordinate and 1 for the radius)
+4. An accessor method for radius.
+5. A mutator method for radius.
+6. A toString method to help print out a Sphere object nicely.
+7. A method to calculate the surface area of the sphere.
+8. A **static** method to detect whether a sphere collides with another sphere (the spheres intersect).
+9. A method of your choosing (Cannot be an accessor/mutator aka. getter/setter)
+
+**The spheres are intersected if the distance between the centers is less than the sum of the two radii.**
+- It is helpful to write out an algorithm for the check collusion method.
+
+### Tester/Driver/Main Class:
+
+Create a class to test your Sphere class named: `SphereTest.java`
+- Use codes as below in the `main()` method that utilizes the Sphere class.
+    - You should add code to instantiate 2 more Sphere objects and test other methods.
+```java
+    // create a sphere called sun
+    Sphere sun = new Sphere(0.0, 0.0, 0.0, 10.545);
+    // create a sphere called earth
+    Sphere earth = new Sphere(21.0, 21.0, 21.0, 24.2);
+    // create a sphere called moon
+    Sphere moon = new Sphere(-2.0, -3.1, -15.0, .001);
+
+    // output the surface area of the sphere objects
+    System.out.println("The surface area of the sun is " + sun.calculateSurfaceArea());
+    System.out.println("The surface area of the earth is " + earth.calculateSurfaceArea());
+    System.out.println("The surface area of the moon is " + moon.calculateSurfaceArea());
 ```
-1. Deposit
-2. Withdraw
-3. Check Balance
-4. Exit
-```
 
-Your program should be able to do the support:
 
-1. A customer can make more than one transaction.
-2. The interface needs to prevent the customer from **withdrawing** money if there is insufficient funds.
-3. When the customer finishes, print out a summary of all transactions (total amount deposit or/and withdraw) and a thank you message.
-4. At the end, remind them to take the receipt or check their email the confirmation.
+## Quick note:
+- If you want a quick read about spheres go [here](https://byjus.com/maths/sphere/#:~:text=A%20sphere%20is%20a%20three,vertices%2C%20like%20other%203D%20shapes).
+- Complete the design of your Sphere class in (`algorithm file`)[algorithm.md].
+- 🟣When designing a class follow the [template here](CLASS_DESIGN_TEMPLATE.md).🟣
+- 🟩When **designing a UML** see the sample and meaning below🟩
 
-## `VI. REQUIREMENTS`
+![](uml_meaning.png)
 
-1. Complete program in [Main.java](Main.java).
-2. Complete set of [test cases.xlsx](test_cases.xlsx).
-    - You may use the Excel file help you with the calculation.
-2. Complete an algorithm before you program [algorithm.md](algorithm.md).
-3. Follow good programming practices including pair programming
-    - `When 1/2 the code is written, or 1/2 of class is over, switch drivers.`
-4. Ensure your code meets all detailed requirements.
-5. Properly use variables (including ensuring the type is correct), input, math, and output.
-6. Use your test cases to test that your program works correctly. Fix any errors.
-7. **_FLOWCHART IS REQUIRED_**
-    - But First add `diagrams.net` plugin
-        - File -> Settings -> Plugins -> Marketplace: Then such and install `diagrams.net`
-    - Update the flowchart of your project using `flowchart.drawio.svg`
+
+## `VI. STYLE`
+
+You are expected to follow a consistent style. Pay particular attention to:
+
+1. File headers: You should have a file header at the top of every file explaining the purpose and author of the file, describing input/output if any.
+   It must start with (replace the bits in < >):
+  ```java
+  /**
+   * [Brief description of the file's purpose]
+   * Due Date: [date assignment is due]
+   * Assignment:  [number of assignment]
+   * Problem Statement:  [what problem does your code solve; i.e., calculating inches from centimeters]
+   * Data In: [what information do you request from the user?]
+   * Data Out:  [What information do you display for the user?]
+   * @author <Your Name>
+   * @version <Version Number, Date>
+   */
+  ```
+
+2. Variable names: use meaningful names in all camelCase style
+3. Your code should have appropriate whitespace and avoid overly long line lengths.
+4. Use clear documentation and careful formatting. Be consistent in the indentation and alignment of braces.
+5. Every method in your class must have a header comment of the form (replace the bits in < > and only use the number of `@param` that are needed for your method):
+    ```java
+    /**
+    * <A one sentence description of the method, ending with a period.>
+    * <Optional longer description if desired>
+    *
+    * @param  <first parameter name>  <purpose of the parameter>
+    * @param  <second parameter name>  <purpose of the second parameter>
+    * @return      <what is returned>
+    */
+    ```
+6. Your code should have no compilation errors.
+7. Use of git: use meaningful commit messages and commit after reasonable milestones (i.e., a function has been completed)
+    * A single commit for the whole project is not a good use of git
+
 
 [<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
 
-### Quick note:
-**This is the assumption about the opening balance**: store the balance in a variable named `balance` and initialize it to `$212.90`
-
-### Bonus:
-- You can earn **5 additional points** if you use **switch/case** in your program.
-
-    - **Only attempt this when everything else works**
-- You can earn additional bonus points by performing error checking when user enters their choice (1,2,3,4) i.e. entering a non-number will not crash your program.
 
 ## `VII. REMINDERS`
 
@@ -123,21 +169,6 @@ You will write your program in the "pair programming" mode: one of you is the dr
 - You should have comments above each chunk of code!
 - Use white spaces to make your code more readable and lastly be consistent and considerate in naming your variables (**use camel Case style**)
 
-8. ✳️ Include an updated version of the intro comments below at the very top of your .java file.
-- Do not include the brackets `[` and `]` but replace them with what is asked for inside of them.
-- Be sure to keep the titles at the start of each line.
-  ```java
-  /**
-   * [Brief description of the file's purpose]
-   * Due Date: [date assignment is due]
-   * Assignment:  [number of assignment]
-   * Problem Statement:  [what problem does your code solve; i.e., calculating inches from centimeters]
-   * Data In: [what information do you request from the user?]
-   * Data Out:  [What information do you display for the user?]
-   * @author <Your Name>
-   * @version <Version Number, Date>
-   */
-  ```
 
 9.  Once you are done in lab, even if you haven’t finished the assignment yet, you need to Commit and Push your changes.
 
@@ -146,11 +177,13 @@ You will write your program in the "pair programming" mode: one of you is the dr
 
 **🔶 Commit and Push to GitHub: 🔶**
 
-1. Completed `Main.java` file
+1. Completed `Sphere.java` file
+2. Completed `SphereTest.java` file
 2. Your design on `algorithm.md` file
-3. flow chart `flowchar.drawio.net` file
+3. UML design in `flowchart_uml.drawio.svg`file
 4. An Excel file with your test cases.
     - Edit the `test_cases.xlsx` file with Excel software
+        - Containing at least 3 test cases.
     - If it can open then ok. Otherwise
         - Right click on `test_cases.xlsx` -> Open In -> Associated Application
 5. Encrypted reflection files using the `FET.java`:
@@ -158,7 +191,7 @@ You will write your program in the "pair programming" mode: one of you is the dr
     - `RD2.md`: Reflection for Driver 2.
     - `RD3.md`: Reflection for Driver 3. (If there are three members)
     - N.B. You can get the path of the reflection file and paste it inside the fet browser
-      - **Unencrypted reflection will be considered unsubmitted**
+        - **Unencrypted reflection will be considered unsubmitted**
     - <img src="enc_steps.png" alt="">
 
 [<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
