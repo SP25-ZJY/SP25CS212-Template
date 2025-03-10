@@ -106,18 +106,13 @@ You are expected to follow a consistent style. Pay particular attention to:
 1. File headers: You should have a file header at the top of every file explaining the purpose and author of the file, describing input/output if any.
    It must start with (replace the bits in < >):
   ```java
-  /**
-   * [Brief description of the file's purpose]
-   * Due Date: [date assignment is due]
-   * Assignment:  [number of assignment]
-   * Problem Statement:  [what problem does your code solve; i.e., calculating inches from centimeters]
-   * Data In: [what information do you request from the user?]
-   * Data Out:  [What information do you display for the user?]
-   * @author <Your Name>
-   * @version <Version Number, Date>
-   */
-  ```
-
+    /**
+ * This is my code! It's goal is to <give purpose of file here>
+ * CS 212 - Lab <#>
+ * @author <Your Name> <Your partner name>
+ * @version <a version number followed by a date>
+ */
+   ```
 2. Variable names: use meaningful names in all camelCase style
 3. Your code should have appropriate whitespace and avoid overly long line lengths.
 4. Use clear documentation and careful formatting. Be consistent in the indentation and alignment of braces.
@@ -143,7 +138,7 @@ You are expected to follow a consistent style. Pay particular attention to:
 ## `VII. REMINDERS`
 
 You will write your program in the "pair programming" mode: one of you is the driver while the other is the navigator.
-
+<h2> Some of the following reminders may not be applicable for this assignment</h2>
 1.  ⛔️ Make sure you *understand the problem* you are being asked to solve.
 - What are the input(s), output(s), and calculation(s)?
 2. ✅ *Write Test Cases*: create a series of test cases in [test_cases.xlsx](test_cases.xlsx) to use to determine that your program works correctly.

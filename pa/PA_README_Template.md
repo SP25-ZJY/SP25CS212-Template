@@ -171,16 +171,13 @@ Follow these style guidelines:
 
 1. **File headers**: Include at the top of each file:
    ```java
-   /**
-   * [Brief description of the file's purpose]
-   * Due Date: [date assignment is due]
-   * Assignment:  [number of assignment]
-   * Problem Statement:  [what problem does your code solve; i.e., calculating inches from centimeters]
-   * Data In: [what information do you request from the user?]
-   * Data Out:  [What information do you display for the user?]
-   * @author <Your Name>
-   * @version <Version Number, Date>
-   */
+    /**
+    * This is my code! It's goal is to <give purpose of file here>
+    * CS 212 - Lab <#>
+    * @author <Your Name> <Your partner name>
+    * @version <a version number followed by a date>
+    */
+   ```
 
 2. **Variable names**: Use meaningful camelCase names.
 3. **Code formatting**: Use consistent indentation, whitespace, and alignment.
